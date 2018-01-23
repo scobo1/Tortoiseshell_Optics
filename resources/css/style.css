@@ -1,0 +1,103 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: "Helvetica", sans-serif;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+}
+
+/* Heading */
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 31rem;
+}
+
+.top_bar {
+  color: white;
+  font-size: 1rem;
+  background-color: cadetblue;
+  margin: 1rem auto 10rem auto;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+ul {
+  margin: 0rem;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 1rem 2rem 1rem 0rem;
+}
+
+.mobile {
+  display: none;
+}
+
+.headline_box {
+  background-color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+
+}
+
+.all-caps {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Content Section */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem auto;
+}
+
+.features_section {
+  display: flex;
+  margin: 3rem auto;
+}
+
+.feature {
+  height: 8rem;
+  width: 5rem;
+  margin: 0rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.feature span {
+  align-items: flex-end;
+}
+
+#paper {
+  width: 3.5rem;
+}
